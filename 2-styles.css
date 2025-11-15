@@ -34,8 +34,17 @@ code {
 	padding-left: 10px;
 }
 
+/* MENU */
+.menu{display: flex; justify-content:space-evenly; list-style-type: none; padding: 0;}
+.tabs{flex-grow: 1; background-color: cornflowerblue; margin: 0 5px 0 5px;}
+.nav-link{text-decoration: none; text-align: center; display: block; color:navy; padding: 5px }
+.nav-link:hover{background-color: lightsteelblue;}
+.nav-link:active{background-color: aliceblue}
+
 /* MAIN */
 
 .main-content {
 	padding: 10px;
 }
+
+.globalnav{position: absolute; bottom: 50%; right:50%	}

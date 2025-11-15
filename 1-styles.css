@@ -30,7 +30,15 @@ code {
 .menu {
     background-color: silver;
     border: 1px solid gray;
+    display: flex; justify-content:space-evenly; list-style-type: none; padding: 0;
 }
+
+.tab{flex-grow: 1}
+
+.nav-links{text-decoration: none; text-align: center; display: block; margin: 0px; padding: 15px 5px; color: black;}
+
+.nav-links:hover{background-color:gray; color:white; transition: all 300ms;}
+.nav-link:active{background-color:gray; color:white;}
 
 /* MAIN */
 
